@@ -1,0 +1,141 @@
+body {
+    /* Color de fondo */
+    background-color:hwb(211 6% 85%);
+} 
+
+/* TEXTO */
+h3{ 
+    /* color de texto */
+    color: hsl(300, 5%, 92%);
+}
+
+h1{
+    background-color: darkslategrey;
+    color: rgb(241, 241, 241);
+    /* Font-family es para poner tipografía */
+    font-family: "Playfair Display", serif;
+    font-size: 60px; /* Or a valid font size value */
+    font-weight: 600;
+    font-style: normal;
+    /* text-align para acomodar el texto // justify-justificar - left - center - right */
+    text-align: center;
+}
+
+h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+/* IMAGENES */
+/* Para modificar las imágenes - height es de altura - width es de anchura */
+#banner{
+    height: 550px;
+    width: 85%;
+    display: flex; /* O bien display: inline-block; */
+    margin: auto;
+}
+
+#granos{
+    height: 550px;
+    width: 25%;
+    display: inline-block;
+    margin: 0 40px;
+}
+
+#taza{
+    height: 550px;
+    width: 30%;
+    display: inline-block;
+    margin: 0 40px;
+}
+
+#two{ 
+    height: 550px;
+    width: 25%;
+    display: inline-block;
+    margin: 0 40px;
+}
+
+#imgfor, #imgtres, #imgdos, #imguno{
+    height: 300px;
+    width: 15%;
+    display: flex; /* O bien display: inline-block; */
+    margin: auto;
+}
+
+#iuno, #idos, #itres, #ifor{
+    height: 300px;
+    width: 15%;
+}
+
+#video{
+    height: 550px;
+    width: 85%;
+    display: flex; /* O bien display: inline-block; */
+    margin: auto;
+}
+
+.red{
+    height: 45px;
+    width: 3%;
+}
+
+
+img{
+    /* cambiar tamaño de imagenes */
+    /* anchura-pixeles (px) y porcentaje (%) */
+    width: 20%
+    /* bordes y redondeadas */
+    /* border-radius: 5px  */
+}
+
+/* para modificar CSS de un elemento en particular HTML, asignamos una clase (class) y esa la llamamos en el CSS con un (.) antes dell */
+/* Editar div de menu */
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    color: antiquewhite;
+    font-family: "Dosis", sans-serif;
+    font-size: automático; /* Cambiar a font-size: 16px; (o valor deseado) */
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+} 
+/* ANCLAS DEL MENU */
+a{
+    color: #edeeed;
+    text-decoration: none;
+    font-family: "Dosis", sans-serif;
+    /* BOTONES */
+    display: inline-block;
+    padding: 15px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: hwb(150 57% 6% / 0.747);
+    color: #000;
+    /* ANCLAS COMO BOTONES */
+    /* background-color: darkolivegreen;
+    padding: 10px 20px; 
+    border-radius: 8px;
+    margin-bottom: 5px; */
+}
+
+
+ul{
+    color: aliceblue;
+}
+
+.container{
+    background-color: darkslategrey;
+}
+
+.postre{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}

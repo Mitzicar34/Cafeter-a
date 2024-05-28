@@ -1,0 +1,149 @@
+<!-- Este es un comentario HTML -->
+<!-- DOCTYPE Es una declaración de archivo tipo HTML -->
+<!DOCTYPE html>
+<!-- html encapsula todo nuestro código - lang (idioma) -->
+<html lang="en">
+    <!-- head - (cabeza) metadata y data, información del proyecto para el navegador, también donde conectamos otros archivos -->
+<head>
+    <!-- meta - metadata, charset="UTF-8" aplica un set de caracteres -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title - el titulo de la pestañita de arriba -->
+    <title>Mi Primer Página</title>
+    <!-- Favicon (Loguito de la pestaña) -->
+    <link rel="icon" href="/Imágenes/coffee-beans.png">
+    <!-- Enlace con haja de estilo (CSS) -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- Enlace de tipografías -->
+    <!-- Tipografía del H1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <!-- Tipografía del p -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Lora:wght@600&family=Open+Sans:wght@300..800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<!-- Sección que SI se puede ver e interactuar -->
+<body>
+    <!-- H1 - Encabezado principal -->
+    <h1>Delicias Cafeteras</h1>
+    <!-- IMÁGENES - src (sourse / fuente) // alt(texto alternativo,info extra de la imagen) -->
+    <!-- A TRAVÉS DE LA WEB (PEGANDO LINK DE LA DIRECCIÓN DE LA IMÁGEN) -->
+    <img id="banner" src="https://ingenieriademenu.com/wp-content/uploads/2022/04/Como-decorar-una-cafeteria-pequena-con-poco-dinero.jpg" alt="Imagen de una cafetería">
+    <br>
+    <h2>El café es una bebida que se prepara a partir de la infusión de granos de café tostados y molidos.
+        Tiene un sabor amargo y característico, y un aroma intenso.
+        Es una de las bebidas más populares del mundo y se consume en todo tipo de ocasiones, desde reuniones sociales hasta momentos de trabajo.</h2>
+        <br>
+        <!-- LOCALMENTE -  -->
+    <img id="granos" src="/Imágenes/Granos de café.jpg" alt="Granos de café">
+    <img id="taza" src="/Imágenes/Café.jpg" alt="Taza de café">
+    <img id="two" src="/Imágenes/Granos de café.jpg" alt="Granos de café">
+
+    <!-- LISTAS - ordenadas y no ordenadas -->
+    <!-- LISTAS ORDENADAS (OL) -->
+    <div class="container"> 
+        <h3 id="tipos" >Tipos de Cafés</h3>
+    <ol>
+         <!-- NAVEGACIPON CON ANCLAS // ID -->
+        <div class="menu" > 
+            <a href="#cafe-espresso">Café Espresso</a>
+            <br>
+            <a href="#macchiato">Macchiato</a>
+            <br>
+            <a href="#capuchino">Capuchino</a>
+            <br>
+            <a href="#latte">Latte</a>
+        </div>
+        <!-- li - item list - elemento de lista -->
+        <!-- <li>Café expreso</li> -->
+        <!-- <li>Macchiato</li> -->
+        <!-- <li>Capuchino</li> -->
+        <!-- <li>Latte</li> -->
+    </ol>
+
+    <h3>Postres para acompañar</h3>
+    <!-- LISTAS NO ORDENADAS (UL) - unordered lists -->
+    <ul>
+        <li>Tiramisú</li>
+        <li>Cheesecake</li>
+        <li>Donas</li>
+        <li>Pastel de chocolate</li>
+        <li><a href="#Postres">Postres</a></li>
+    </ul>
+    </div>
+    
+
+<!-- PÁRRAFOS Y NAVEGACIÓN -->
+<!-- ATRIBUTOS EN LA ETIQUETA DE APERTURA -->
+
+<H3 id="cafe-espresso">Café Espresso</H3>
+<!-- P - elemento párrafo ideal para texto -->
+<div>
+<p> 
+    La Asociación de Café de Especialidad de América (SCAA, por sus siglas en inglés) define  al espresso como una bebida concentrada de 25-35 ml preparada con 7-9 gramos de café molido fino. El agua caliente a alta presión se fuerza a través del café molido durante 20-30 segundos. Esta definición se refiere a lo que generalmente se considera como un "shot" de espresso. La SCAA también recomienda que el espresso se prepare y sirva de inmediato al cliente para obtener los mejores resultados.
+   <!-- BR - break o descanso -->
+    <br>
+    El resultado debe de ser una bebida espesa y rica en sabor con una crema dorada en la superficie. La crema es esencial para el sabor y textura del espresso, ya que contiene aceites y azúcares extraídos durante el proceso de preparación.
+</p>
+<img id="imguno" src="/Imágenes/07b7e99bb01cca8732387d18919b2b4e.jpg" alt="Café Espresso">
+
+</div>
+
+<h3 id="macchiato">Macchiato</h3>
+<p>
+    El café macchiato, también conocido como “café manchado“, es una apetitosa bebida que combina la intensidad del café espresso con un toque sutil de leche. Originario de Italia, el término “macchiato” significa “manchado” o “marcado”, refiriéndose a la pequeña cantidad de leche que se añade al café. El café macchiato se distingue por su equilibrio perfecto entre el sabor fuerte del espresso y la suavidad láctea.
+</p>
+<img id="imgdos" src="/Imágenes/macchiato.jpg" alt="Café Macchiato">
+
+<h3 id="capuchino">Capuchino</h3>
+<p>
+   Un capuchino es una bebida a base de café espresso y leche espumosa, originaria de Italia. Se caracteriza por su sabor equilibrado entre el café intenso y la cremosidad de la leche, y por su distintiva capa de espuma en la superficie.El capuchino se suele servir en una taza de cerámica de 150 a 180 ml. Se puede decorar con una pizca de cacao en polvo o canela.
+</p>
+<img id="imgtres" src="/Imágenes/capuchino.jpg" alt="Café Capuchino">
+
+<h3 id="latte">Latte</h3>
+<p>
+    El café latte es una bebida a base de café que se prepara con espresso y leche vaporizada. Se caracteriza por tener una textura suave y cremosa, y un sabor a café más suave que el del espresso solo. La proporción de espresso y leche suele ser de 1:3, pero puede variar según las preferencias personales.
+</p>
+<img id="imgfor" src="/Imágenes/Latte.jpg" alt="Café Latte">
+
+<h3 id="Postres">Postres para acompañar</h3>
+<div class="postre">
+    <img id="iuno" src="/Imágenes/Tiramisu.jpg" alt="Tiramisú">
+    <p>Tiramisú</p>
+    <img id="idos" src="/Imágenes/cheesecake.jpg" alt="Cheesecake">
+    <p>Cheesecake</p>
+    <img id="itres" src="/Imágenes/donas.jpg" alt="Donas">
+    <p>Donas</p>
+    <img id="ifor" src="/Imágenes/Pastel.jpg" alt="Pastel de Chocolate">
+    <p>Pastel de Chocolate</p>
+</div>
+    
+
+
+<h3 id="contacto">Contacto</h3>
+<p>Contáctanos a través de nuestras redes sociales:
+    <br> 
+    <img class="red" src="/Imágenes/facebook.png" alt="Facebook"> Delicias Cafeteras
+    <br>
+    <img class="red" src="/Imágenes/instagram.png" alt="Instagram">DeliCafé
+    <br>
+    <img class="red" src="/Imágenes/medios-de-comunicacion-social.png" alt="Tik Tok">DeliCafé</p>
+
+<!-- IMAGÉN CLICKEABLE -->
+<!-- a -  ancla anchor // elemento para redirijir a otro sitio web  al mismo sitio -->
+<!-- href (A dónde te redirige) -->
+
+<h3>Da click si te interesa más sobre el tema</h3>
+<a href="https://www.youtube.com/watch?v=6_5QmWKAJKU">
+    <img id="video" src="/Imágenes/6b7c3af7f32ed3fea9f7dbf47785c4bd.jpg" alt="">
+</a>
+
+<p>Esta página utiliza íconos de 
+    <a href="https://www.flaticon.com/free-icons/cafe">flaticon</a>
+</p> 
+
+</body>
+</html>
